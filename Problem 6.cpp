@@ -6,33 +6,33 @@ int main ()
 {
 	
 	//burada ilk 100 sayýnýn karelerinin toplamý 
-	int x = 1 , karex = 0 , sonuc = 0;
+	int x = 1 , squarex = 0 , result = 0;
 	
 	for ( int i = 1 ; i <= 100 ; i++ )
 	{
-		karex = (x * x) + karex;
+		squarex = (x * x) + squarex;
 		x++;
 	}
 	
-	cout << karex << endl;
+	cout << squarex << endl;
 	
 	//burada ilk 100 sayýnýn toplamlarýnýn karesi
-	int y = 1 , karey = 0 , toplamy;
+	int y = 1 , squarey = 0 , sumy;
 	
 	for ( int i = 1; i <= 100; i++)
 	{
-		toplamy = y + toplamy;
+		sumy = y + sumy;
 		y++;
 	}
 	
-	karey = ( toplamy * toplamy);
+	squarey = ( sumy * sumy);
 	
-	cout << karey << endl;
+	cout << squarey << endl;
 	
 	//burada ise aralarýndaki fark
-	sonuc = karey - karex;
+	result = squarey - squarex;
 	
-	cout << sonuc;
+	cout << result;
 	
 }
 
