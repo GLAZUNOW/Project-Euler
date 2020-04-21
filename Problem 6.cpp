@@ -5,7 +5,7 @@ using namespace std;
 int main ()
 {
 	
-	//burada ilk 100 sayýnýn karelerinin toplamý 
+	//here the sum of the squares of the first 100 numbers:
 	int x = 1 , squarex = 0 , result = 0;
 	
 	for ( int i = 1 ; i <= 100 ; i++ )
@@ -16,7 +16,7 @@ int main ()
 	
 	cout << squarex << endl;
 	
-	//burada ilk 100 sayýnýn toplamlarýnýn karesi
+	//here is the square of the sum of the first 100 numbers:
 	int y = 1 , squarey = 0 , sumy;
 	
 	for ( int i = 1; i <= 100; i++)
@@ -29,7 +29,7 @@ int main ()
 	
 	cout << squarey << endl;
 	
-	//burada ise aralarýndaki fark
+	//here is the difference between them:
 	result = squarey - squarex;
 	
 	cout << result;
